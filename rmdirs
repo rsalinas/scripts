@@ -1,0 +1,6 @@
+#! /bin/sh -eu
+
+
+# Removes all empty directories in either the specified directories or the 
+# CWD.
+find "$@" -depth -type d -delete
